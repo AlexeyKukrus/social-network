@@ -1,0 +1,13 @@
+// global.scss
+
+@import "./variables";
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  background-color: $background-page-color; 
+  font-family: Arial, sans-serif;
+  color: $main-text-color;
+}
