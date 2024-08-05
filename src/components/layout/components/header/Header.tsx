@@ -2,11 +2,12 @@
 
 import React from "react";
 
+import styles from './header.module.scss';
+
 const Header: React.FC = () => {
   return (
-    <div>
-      Header
-    </div>
+    <header className={`${styles.header} ${styles.d_flex}`}>
+    </header>
   )
 }
 

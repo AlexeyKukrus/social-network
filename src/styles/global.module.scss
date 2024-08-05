@@ -11,3 +11,8 @@ body {
   font-family: Arial, sans-serif;
   color: $main-text-color;
 }
+
+.d_flex {
+  display: flex;
+  flex-direction: row;
+}

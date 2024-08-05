@@ -2,11 +2,13 @@
 
 import React from "react";
 
+import styles from './sidebar.module.scss';
+
 const Sidebar: React.FC = () => {
   return (
-    <div>
+    <nav className={styles.sidebar_container}>
 
-    </div>
+    </nav>
   )
 }
 
